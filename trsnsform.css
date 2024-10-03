@@ -1,0 +1,124 @@
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  margin: 20px;
+  border-radius: 3px;
+}
+.box {
+  background-color: rgba(226, 43, 83, 0.438);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 3px;
+  transition: all ease-in 0.2s;
+  z-index: 2;
+}
+.box div {
+  z-index: 3;
+}
+.margin {
+  margin-bottom: 100px;
+}
+body {
+  background-color: rgba(0, 0, 255, 0.199);
+}
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box1:hover {
+  transform: rotate(45deg);
+}
+.parent > div {
+  margin: 42px;
+}
+.box2:hover {
+  transform: scaley(0.55);
+}
+.box3:hover {
+  transform: scalex(0.55);
+}
+.box4:hover {
+  transform: scale(2);
+}
+.box5:hover {
+  transform: scalex(2);
+}
+.box10:hover {
+  transform: translateX(-50px);
+}
+.box9:hover {
+  transform: translatex(50px) translateY(20px);
+}
+.box8:hover {
+  transform: skewY(50deg);
+}
+.box7:hover {
+  transform: skewX(50deg);
+}
+.box6:hover {
+  transform: scaley(2);
+}
+.box11:hover {
+  transform: translateY(50px);
+}
+.box12:hover {
+  transform: skewY(50deg) scale(2) translate(30px) translateY(-20px);
+}
+.box13:hover {
+  transform: perspective(90px) rotateX(40deg);
+}
+.box14:hover {
+  transform: perspective(90px) rotateY(40deg);
+}
+.box15:hover {
+  transform-origin: top right;
+  transform: rotate(45deg);
+}
+.box16:hover {
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+.box24:hover {
+  transform: scalex(2);
+  transform-origin: left;
+}
+.box17:hover {
+  transform: perspective(180px) rotateX(30deg);
+  transform-origin: bottom;
+}
+.box18:hover {
+  transform: perspective(360px) rotateX(55deg);
+  transform-origin: top;
+}
+.box19:hover {
+  transform: perspective(200px) rotateY(40deg);
+  transform-origin: left;
+}
+.box23:hover {
+  transform: scalex(2);
+  transform-origin: right;
+}
+.box22:hover {
+  transform-origin: bottom left;
+  transform: scale(2);
+}
+.box21:hover {
+  transform-origin: top right;
+  transform: scale(2);
+}
+.box20:hover {
+  transform: perspective(300px) rotateY(60deg);
+  transform-origin: right;
+}
+.box25:hover {
+  transform-origin: top;
+  transform: scaleY(2);
+}
+.box26:hover {
+  transform-origin: bottom;
+  transform: scaleY(2);
+}
